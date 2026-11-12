@@ -1,0 +1,23 @@
+# ESP-IDF 构建产物
+build/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.map
+managed_components/
+dependencies.lock
+
+# 调试截图（从板子/摄像头回拉的，无代码价值）
+_*.jpg
+*.jpg
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
