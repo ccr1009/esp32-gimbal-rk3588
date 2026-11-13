@@ -8,9 +8,11 @@ sdkconfig.old
 managed_components/
 dependencies.lock
 
-# 调试截图（从板子/摄像头回拉的，无代码价值）
-_*.jpg
-*.jpg
+# 调试截图（从板子/摄像头回拉的临时文件，放在仓库根，带 _ 前缀）
+/_*.jpg
+/_*.png
+
+# ⚠️ 不要用全局 *.jpg —— docs/images/ 里是正式证据图，必须提交
 
 # Python
 __pycache__/
